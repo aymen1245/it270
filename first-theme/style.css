@@ -1,0 +1,50 @@
+/* Styles for my First WordPress Website
+Name: First Theme
+Author: Aymen Khaleefa
+Date: July 2024
+  */
+
+  * { 
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+  }
+
+  body {
+    background:beige;
+  }
+
+  header {
+    background:yellow;
+
+  }
+
+  #top {
+    height:60px;
+    background:orange;
+
+  }
+
+  #inner-header {
+    max-width:1200px;
+    margin:0 auto;
+    height:100px;
+    background:tan;
+  }
+
+  /* this is our background image!!! */
+  #hero {
+    height:400px;
+    background:red;
+  }
+
+  #wrapper {
+    max-width:1200px;
+    margin:20px auto;
+  }
+
+  footer {
+    background:#ccc;
+    height:300px;
+  }
