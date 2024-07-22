@@ -17,8 +17,42 @@ Date: July 2024
     font-size: 100%;
   }
 
+  #hero {
+    background:red;
+ }
+
+
+  .home #hero {
+    background-image:url(
+    );
+     background-attachment:fixed;
+     background-size:100%;
+     background-position:0 100px;
+     min-height:550px;
+     max-width:100%;
+     background-repeat:no-repeat;
+  }
+  #hero img {
+    display:none;
+  }
+
+  .inner-page #hero {
+    background-image:url(
+    );
+     background-attachment:fixed;
+     background-size:100%;
+     background-position:0 100px;
+     min-height:350px;
+     max-width:100%;
+     background-repeat:no-repeat;
+  }
+
   header {
     background:yellow;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
 
   }
 
@@ -35,11 +69,6 @@ Date: July 2024
     background:tan;
     padding:10px 20px 10px 0;
     clear:both;
-  }
-
-  /* this is our background image!!! */
-  #hero {
-     background:red;
   }
 
   #wrapper {
@@ -209,6 +238,22 @@ Date: July 2024
 
 
    /* the begning of our media queries */
+   @media screen and(max-width:1450px) {
+    .home #hero {
+      background-image:none;
+      margin-top:100px;
+      min-height:auto;
+    }
+   
+    .inner-page #hero {
+      background-image:none;
+      margin-top:100px;
+      min-height:auto;
+    }
+    #hero img{
+      display:block;
+    }
+    }
 
  
 @media only screen and (max-width: 700px) {
@@ -273,7 +318,7 @@ Date: July 2024
 		font-family: Arial;
 	}
 
-/* my navigational stules */
+/* my navigational styles */
   #site-navigation li {
     float:none;
      margin-left:0;
@@ -284,6 +329,7 @@ Date: July 2024
      position:static;
      background:none;
     padding:0px;
+    width:auto;
   }
 /* end my navigational styles */
 	.primary-nav li a {

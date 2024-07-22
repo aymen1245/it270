@@ -6,6 +6,13 @@ get_header();
  <!-- the index.php is assigned to the blog page!!!-->
 <!-- our queation of the day is 
  If we have any posts or pages, show them!!-->
+
+
+ <div id="hero">
+<img src="<?php echo get_template_directory_uri();
+?>/images/yellowstone-inner.jpg" alt="Yellowstone">
+
+</div>
  <div id="wrapper">
     <main>
 

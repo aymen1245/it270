@@ -11,7 +11,6 @@ get_header();
 <div id="hero">
 <img src="<?php echo get_template_directory_uri();
 ?>/images/yellowstone-header-home.jpg" alt="Yellowstone">
-<div>
 
 </div>
 
