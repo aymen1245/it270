@@ -23,23 +23,23 @@ Date: July 2024
 
 
   .home #hero {
-    background-image:url(
+    background-image:url(https://www.aymenkcodes.com/it270/site1/wp-content/uploads/yellowstone-header-home.jpg
     );
-     background-attachment:fixed;
+     background-attachment: fixed;
      background-size:100%;
      background-position:0 100px;
      min-height:550px;
      max-width:100%;
      background-repeat:no-repeat;
   }
-  #hero img {
+   #hero img {
     display:none;
   }
 
-  .inner-page #hero {
-    background-image:url(
+   .inner-page  #hero {
+    background-image:url(https://www.aymenkcodes.com/it270/site1/wp-content/uploads/yellowstone-header-home.jpg
     );
-     background-attachment:fixed;
+     background-attachment: fixed;
      background-size:100%;
      background-position:0 100px;
      min-height:350px;
@@ -56,26 +56,33 @@ Date: July 2024
 
   }
 
-  #top {
+    #top {
    padding:10px 30px 10px 10px;  
    background:orange;
    overflow: hidden;
 
   }
 
-  #inner-header {
+   #inner-header {
     max-width:1200px;
     margin:0 auto;
-    background:tan;
+    background:rgb(4, 4, 4);
     padding:10px 20px 10px 0;
     clear:both;
   }
+
+  /* this is our background image!! */
 
   #wrapper {
     max-width:1200px;
     margin:20px auto;
   }
 
+   .error404 #wrapper,
+   .search #wrapper {
+    margin:140px auto 0 auto;
+
+   }
   main {
     width:62%;
     float:left;
@@ -170,6 +177,19 @@ Date: July 2024
     .block {
       display:block;
       font-style:italic;
+    }
+
+    .search .pagetitle {
+      margin-bottom:10px;
+    }
+
+    .searching-box {
+      width:62%;
+      float:left;
+    }
+
+    img {
+      max-width:100px;
     }
   /* typography */
 

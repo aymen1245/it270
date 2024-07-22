@@ -56,12 +56,13 @@ the_title() ; ?> </a>
  <?php endwhile ; ?>
 <?php else : ?>
 <h2>
-    No Content For:
+ No Content For:
     <?php echo get_search_query() ;?>
  </h2>
  <p>Sorry, we could not find anything regarding your search terms.
     Would you like to search again,using different keywords?</p>
-<?php get_search_form(); ?>
+
+ <?php get_search_form(); ?>
  <?php endif; ?>
 </main>
 
