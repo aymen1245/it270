@@ -125,9 +125,22 @@ Date: July 2024
     padding:0 1%;
    }
 
+   #wrapper .third {
+    padding:0;
+   }
+
    .third:last-of-type {
     margin-right:0;
    }
+
+   .col8 {
+    float:left;
+    width:48.93%;
+  }
+
+  .col8:last-of-type {
+    float:right;
+  }
 
   /* this is our background image!! */
 
@@ -248,6 +261,7 @@ Date: July 2024
 
     img {
       max-width:100px;
+      height:auto;
     }
 
 
@@ -277,7 +291,8 @@ Date: July 2024
     font-size: .92em;
   }
 
-  .third h3 {
+  .third h3,
+  .col8 h3 {
     font-size:1.8em;
     margin-bottom:10px;
     color:#f28d35;
@@ -342,7 +357,7 @@ Date: July 2024
 
   h1, h2, h3 {  
     font-family:playfair, serif;
-    color: brown;
+    color:#A69851;
   }
 
   .contact h1 {
@@ -352,6 +367,14 @@ Date: July 2024
   color:brown;
  }
 
+ h2 {
+  margin-bottom:10px;
+
+ }
+.home h2 {
+  text-align:center;
+  font-size: 2.4em;
+}
 
    /* comment form css  */
 
