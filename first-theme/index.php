@@ -4,6 +4,12 @@ get_header();
 <!-- the index.php is assigned to the blog page!!!-->
 <!-- our queation of the day is 
  If we have any posts or pages, show them!!-->
+
+ <div id="hero">
+<img src="<?php echo get_template_directory_uri();
+?>/images/yellowstone-inner.jpg" alt="Yellowstone">
+
+</div>
  <div id="wrapper">
     <main>
 
@@ -48,10 +54,15 @@ the_title() ; ?> </a>
  <?php endwhile ; ?>
 <?php else : ?>
 <h2>
-    <?php echo wpautop('Sorry, no posts were found!'); ?>
-</h2>
+    Search Results:
+ </h2>
+ <p>Sorry, we could not find anything regarding your search terms.
+    Would you like to search again,using different keywords?</p>
+<?php get_search_form(); ?>
  <?php endif; ?>
 </main>
+
+<?php get_sidebar(); ?>
 
 </div>
 <!-- close wrapper -->
