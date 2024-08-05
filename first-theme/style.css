@@ -75,7 +75,7 @@ Date: July 2024
     max-width:1200px;
     margin:0 auto;
     /* background:tan; */
-    padding:10px 0;
+    /* padding:10px 0; */
     clear:both;
    }
 
@@ -287,19 +287,46 @@ Date: July 2024
 
   /* typography */
 
+  blockquote {
+    font-size:1.75em;
+    font-family:playfair, serif;
+    margin:0 6% 20px 6%;
+    font-style:italic;
+    line-height: 1.2;
+    text-align: center;
+  }
+
   .home h1 {
     font-size: 3em;
     text-align: center;
     margin-bottom :14px;
+    color:#73653c
   }
 
   .third span a {
     display: block;
-    color:brown;
+    color:#666;
     font-style: italic;
     margin-top:5px;
     font-size: 1.1em;
   }
+
+  .home blockquote + p {
+    font-size:1.3em;
+    margin:0 4% 20px 4%;
+  }
+
+
+  .home blockquote + p::first-line {
+    color:#73653c;
+    font-weight:bold;
+  }
+
+ .home blockquote + p + P {
+    font-size:1.3em;
+    margin:0 4% 40px 4%;
+  }
+
 
   .row p {
     font-size: .92em;
@@ -661,9 +688,24 @@ blockquote {
 }
 
 .blog main,
-.search main {
+.search main,
+.archive main {
   text-align:center;
 }
+
+
+.inner-footer ul {
+  height:auto;
+  line-height:inherit;
+ }
+
+.inner-footer li {
+  float:none;
+  margin-right:0;
+  text-align:center;
+  line-height:1.5;
+ }
+
 
 	/* Navigation Button
 	-------------------------------------------------------- */
