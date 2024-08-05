@@ -11,8 +11,6 @@
 <li>Copyright &copy; <?php echo date('Y') ; ?></li>
 <li>All Rights Reserverd</li>
 <li><a href="">Web Design by Aymen</a><li>
-<li><a href="">Valid HTML</a><li>
-<li><a href="">Valid CSS</a><li>
 <li><a href="https://validator.w3.org/">VALID HTML</a><li>
 <li><a href="https://jigsaw.w3.org/css-validator/">VALID CSS</a><li>
 </ul>

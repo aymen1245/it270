@@ -28,6 +28,8 @@ get_header();
 <?php the_content() ; ?>
 
  </article>
+ <span class="next-previous"> <?php (previous_post_link()) ? '%link' : '';
+  ?> &nbsp; &nbsp; <?php (next_post_link()) ? '%link' : ''; ?> </span> 
 
  
 
@@ -43,6 +45,9 @@ get_header();
 <?php comments_template(); ?>
 
 </main>
+
+<?php get_sidebar(); ?>
+
 
 </div>
 <!-- close wrapper -->
